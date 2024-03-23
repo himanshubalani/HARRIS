@@ -1,0 +1,5 @@
+Document/
+commandOutput/
+ShadowGui/__pycache__
+ShadowGui/features/__pycache__
+ShadowGui/features/screenshots
