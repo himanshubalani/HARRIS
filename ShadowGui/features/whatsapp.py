@@ -8,7 +8,7 @@ import features.TTS as TTS
 
 
 myContact = {}
-with open(r'C:\DSA\Shadow-Voice_Assistant\Shadow-Voice_Assistant\ShadowGui\features\secure\myContact.csv', 'r') as f:
+with open(r'ShadowGui\features\secure\myContact.csv', 'r') as f:
     reader = csv.reader(f)
     for row in reader:
         myContact[row[0]] = row[1]

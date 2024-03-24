@@ -32,7 +32,7 @@ import webbrowser
 
 def open_html_file_in_browser():
     # Specify the path to your HTML file
-    html_file_path = 'C:/DSA/COPY/Shadow-Voice_Assistant/Shadow-Voice_Assistant/ShadowGui/index1.html'
+    html_file_path = 'ShadowGui\index1.html'
     
     # Check if the HTML file exists
     if os.path.exists(html_file_path):
@@ -214,7 +214,7 @@ class MainThread(QThread):
 
                         elif any(phrase in query for phrase in code_phrases):
                             if 'open code' in query:
-                                codePath = r"C:\Users\pjata\AppData\Local\Programs\Microsoft VS Code\Code.exe" # SET VS CODE PATH
+                                codePath = r"C:\Users\Himanshu Balani\AppData\Local\Programs\Microsoft VS Code\Code.exe" # SET VS CODE PATH
                                 os.startfile(codePath)
 
                             elif 'close vs code' in query or 'close vscode' in query:
@@ -308,13 +308,13 @@ class Main(QMainWindow):
         self.ui.pushButton_2.clicked.connect(self.close)  
 
     def starttask(self):
-        self.ui.movie = QtGui.QMovie(r"C:\DSA\Shadow-Voice_Assistant\Shadow-Voice_Assistant\ShadowGui\images\Main.gif")      # path of main bg_image (Labal-1)
+        self.ui.movie = QtGui.QMovie(r"ShadowGui\images\Main.gif")      # path of main bg_image (Labal-1)
         self.ui.label.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(r"C:\DSA\Shadow-Voice_Assistant\Shadow-Voice_Assistant\ShadowGui\images\Initial.gif")      # path of (Labal-2)
+        self.ui.movie = QtGui.QMovie(r"ShadowGui\images\Initial.gif")      # path of (Labal-2)
         self.ui.label_2.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie(r"C:\DSA\Shadow-Voice_Assistant\Shadow-Voice_Assistant\ShadowGui\images\shadow.gif")      # path of (Labal-3)
+        self.ui.movie = QtGui.QMovie(r"ShadowGui\images\shadow.gif")      # path of (Labal-3)
         self.ui.label_3.setMovie(self.ui.movie)
         self.ui.movie.start()
         timer= QTimer(self)
