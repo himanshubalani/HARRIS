@@ -1,2 +1,5 @@
 commandOutput/
 Document/
+
+*.pyc
+*.pyo
