@@ -82,13 +82,9 @@ Voice Assistance can be installed on various devices, including computers, smart
       python .\ShadowGui\shadow.py
       ```
 
-## Contribution
-
-Contributions to Voice Assistance are welcome! If you'd like to contribute, please follow the guidelines outlined in the CONTRIBUTING.md file.
-
 ## Support
 
-For support or assistance with Voice Assistance, please contact [support@example.com](mailto:support@example.com).
+For support or assistance with Voice Assistance, please contact anyone of our team via GitHub itself.
 
 ## License
 
